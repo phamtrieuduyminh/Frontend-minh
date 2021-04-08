@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <style>
+        body {
+            margin: 0px;
+        }
+        
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1366px;
+            height: 650px;
+            background-image: linear-gradient(rgb(140 140 140), rgb(0 0 0));
+            position: relative;
+        }
+        
+        .hinhanh {
+            margin-left: auto;
+            margin-right: auto;
+            width: 85%;
+            height: 500px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 0px 0px 20px 20px;
+        }
+        
+        .bia {
+            position: absolute;
+            right: -190px;
+            bottom: -200px;
+        }
+        
+        .avt {
+            position: absolute;
+            bottom: 135px;
+            transform: translateX(-50%) translateY(10%);
+            left: 50%;
+        }
+        
+        .avt img {
+            border: 5px solid rgb(255, 255, 255);
+            border-radius: 150px;
+        }
+        
+        .ten {
+            position: absolute;
+            bottom: 40px;
+            transform: translateX(-50%) translateY(10%);
+            text-align: center;
+            left: 50%;
+        }
+        
+        h2 {
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        .icon-bia {
+            position: absolute;
+            bottom: 5%;
+            right: 5%;
+        }
+        
+        .icon-anh {
+            position: absolute;
+            bottom: 10%;
+            right: 10%;
+        }
+        
+        .icon-bia button {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            border: none;
+            width: 150px;
+            height: 40px;
+            opacity: 80%;
+        }
+        
+        .icon-anh button {
+            background-color: whitesmoke;
+            border-radius: 100px;
+            border: none;
+            width: 40px;
+            height: 40px;
+            opacity: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="hinhanh">
+            <img class="bia" src="bia.jpg" alt="">
+            <div class="icon-bia">
+                <button> <i class="fas fa-camera"></i>  Đổi ảnh bìa</button>
+            </div>
+
+        </div>
+        <div class="avt">
+            <img src="avt.jpg" width="300px" alt="">
+            <div class="icon-anh">
+                <button> <i class="fas fa-camera"></i></button>
+            </div>
+        </div>
+
+        <div class="ten">
+
+            <h2>Phạm Minh</h2>
+            <span> <a href="">Thêm tiểu sử</a></span>
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
