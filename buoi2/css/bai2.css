@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-block-item {
+    width: 48%;
+    margin-left: 23px;
+    margin-top: 20px;
+    height: 200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.images {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    box-shadow: -2px 3px 9px 0px rgb(221, 221, 221);
+}
+
+.images img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.block-text {
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(245 245 245);
+}
+
+.block-text h3,
+p {
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.block-text p {
+    font-size: 14px;
+}
