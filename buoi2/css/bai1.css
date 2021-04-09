@@ -4,14 +4,12 @@
     margin-right: auto;
     width: 1170px;
     height: auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .icon-block-item {
     width: 25%;
+    margin: -2px;
     height: 250px;
-    background-color: none;
     display: inline-block;
 }
 
@@ -41,4 +39,5 @@
 
 .block-text h5 {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
