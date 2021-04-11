@@ -12,54 +12,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
     </style>
-    <!-- <link rel="stylesheet" href="css/bai2.css"> -->
+    <link rel="stylesheet" href="css/bai2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
 
-    <style>
-        .container {
-            margin: auto;
-            width: 1170px;
-            height: auto;
-        }
-        
-        .icon-block-item {
-            width: 50%;
-            height: 200px;
-            display: inline-block;
-        }
-        
-        .images {
-            width: 40%;
-            height: 200px;
-            position: relative;
-            box-shadow: -2px 3px 9px 0px rgb(221 221 221);
-            float: left;
-        }
-        
-        .images img {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translateX(-50%) translateY(-50%);
-        }
-        
-        .block-text {
-            width: 60%;
-            height: 200px;
-            background-color: rgb(245 245 245);
-            float: right;
-        }
-        
-        .block-text h3,
-        p {
-            margin: 15px;
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        .block-text p {
-            font-size: 14px;
-        }
-    </style>
+
 </head>
 
 
@@ -67,8 +23,6 @@
     <div class="container" ng-controller="myctrl">
 
         <!-- thẻ -->
-
-
 
         <div class="icon-block-item" ng-repeat="p in list">
             <div class="images">
@@ -93,7 +47,15 @@
 
     </div>
     <script src="js/bai2.js"></script>
-    <script src="js/bai2main.js"></script>
+    <script>
+        var app = angular.module("myapp", []);
+        app.controller("myctrl", myfunc);
+
+        function myfunc($scope) {
+            $scope.list = noidung;
+        }
+    </script>
+
 </body>
 
 </html>

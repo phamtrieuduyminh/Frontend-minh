@@ -2,6 +2,8 @@
     margin: auto;
     width: 1170px;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .icon-block-item {

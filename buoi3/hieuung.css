@@ -1,0 +1,192 @@
+/* box 1 */
+
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+
+.line {
+    background-color: red;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 100%;
+    position: absolute;
+    transition: left 0.4s;
+}
+
+.box:hover .line {
+    left: 0;
+}
+
+
+/* box2 */
+
+.box2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+
+.line2 {
+    background-color: red;
+    width: 20px;
+    height: 100%;
+    right: 0;
+    top: 100%;
+    position: absolute;
+    transition: top 0.4s;
+}
+
+.box2:hover .line2 {
+    top: 0;
+}
+
+
+/* box3 */
+
+.box3 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+
+.line3_button {
+    background-color: red;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 100%;
+    position: absolute;
+    transition: left 0.4s;
+}
+
+.line3_top {
+    background-color: red;
+    height: 20px;
+    width: 100%;
+    top: 0;
+    right: 100%;
+    position: absolute;
+    transition: right 0.4s;
+}
+
+.box3:hover .line3_top {
+    right: 0;
+}
+
+.box3:hover .line3_button {
+    left: 0;
+}
+
+
+/* box4 */
+
+.box4 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.line4_button {
+    background-color: red;
+    height: 20px;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    position: absolute;
+    transition: left 0.4s, right 0.4s;
+}
+
+.line4_top {
+    background-color: red;
+    height: 20px;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    position: absolute;
+    transition: right 0.4s, left 0.4s;
+}
+
+.line4_left {
+    background-color: red;
+    top: 50%;
+    bottom: 50%;
+    width: 20px;
+    left: 0;
+    position: absolute;
+    transition: top 0.4s, bottom 0.4s;
+}
+
+.line4_right {
+    background-color: red;
+    top: 50%;
+    bottom: 50%;
+    width: 20px;
+    right: 0;
+    position: absolute;
+    transition: top 0.4s, bottom 0.4s;
+}
+
+.box4:hover .line4_top {
+    left: 0%;
+    right: 0%;
+}
+
+.box4:hover .line4_button {
+    left: 0%;
+    right: 0%;
+}
+
+.box4:hover .line4_left {
+    top: 0;
+    bottom: 0;
+}
+
+.box4:hover .line4_right {
+    top: 0;
+    bottom: 0;
+}
+
+
+/* box5 */
+
+.box5 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+
+.box5 .line5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    border: 20px solid red;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0%;
+}
+
+.box5:hover .line5 {
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    transition: height 1s, width 1s, opacity 1s;
+}
