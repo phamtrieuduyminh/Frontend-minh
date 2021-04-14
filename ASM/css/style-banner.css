@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* welcome */
+
+.welcome {
+    background-color: #1b1e30;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+
+/* logo */
+
+.logo {
+    background-color: #3b4259;
+    position: absolute;
+    height: 35px;
+    min-width: 140px;
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+img.logo-text {
+    margin-top: 5px;
+}
+
+
+/* text welcome */
+
+.text-welcome {
+    position: absolute;
+    color: white;
+    left: 50%;
+    width: 100%;
+    top: 60px;
+    transform: translateX(-50%);
+    line-height: 45px;
+    text-align: center;
+}
+
+.text-welcome h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.text-welcome i {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-welcome .button-welcome {
+    margin-top: 5px;
+}
+
+.button-welcome .btn-l,
+.button-welcome .btn-r {
+    width: 50%;
+    display: inline;
+}
+
+.button-welcome .btn-l {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button-welcome .btn-r {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button-welcome .btn-l .left,
+.button-welcome .btn-r .right {
+    min-width: 170px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.button-welcome .btn-l .left,
+.button-welcome .btn-r .right span {
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+/* template-mid */
+
+.template-mid {
+    position: relative;
+    min-height: 200px;
+    width: 420px;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.template-mid .screen-body {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.template-mid .lower-body {
+    position: absolute;
+    width: 130%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-25%);
+    top: 100%;
+}
+
+.template-mid .template-mid-img {
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* left  */
+
+.img-601 {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: 100px;
+    bottom: 80px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.img-601 img {
+    width: 100%;
+}
+
+.img-603 {
+    width: 220px;
+    height: 130px;
+    left: 200px;
+    top: 170px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.img-603 img {
+    width: 100%;
+}
+
+.img-604 {
+    position: absolute;
+    width: 190px;
+    height: 105px;
+    left: 40px;
+    bottom: 296px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.img-604 img {
+    width: 100%;
+}
+
+
+/* right  */
+
+.img-602 {
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    bottom: 110px;
+    right: 150px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.img-602 img {
+    width: 100%;
+}
+
+.img-605 {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    right: 210px;
+    top: 238px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.img-605 img {
+    width: 100%;
+}
+
+.img-606 {
+    width: 220px;
+    height: 130px;
+    right: 20px;
+    top: 170px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.img-606 img {
+    width: 100%;
+}
+
+.Coming-soon {
+    width: 110px;
+    height: 110px;
+    right: 0px;
+    top: 360px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 0px #0000014a;
+}
+
+.Coming-soon img {
+    width: 177%;
+    position: absolute;
+    right: -42px;
+}
