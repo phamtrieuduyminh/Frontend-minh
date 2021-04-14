@@ -1,0 +1,121 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+ .container{
+   margin-left: 0px;
+   margin-right: 0px;
+   width: 100%;
+   height: auto;
+
+  
+  
+ }
+
+
+  /* welcome */
+ .welcome{
+    background-color: #1b1e30;
+    width: 100%;
+    height: 650px;
+    position: relative;
+ }
+/* logo */
+ .logo{
+     background-color: #3b4259;
+     position: absolute;
+     height: 35px;
+     min-width: 140px;
+     left: 50%;
+     top: 40px;
+     transform: translateX(-50%);
+     text-align: center;
+  
+ }
+img.logo-text{
+    margin-top: 5px;
+}
+
+
+/* text welcome */
+.text-welcome{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 85px;
+    transform: translateX(-50%);
+    line-height: 45px;
+    text-align: center;
+
+
+}
+.text-welcome h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+.text-welcome i{
+   font-style: italic;
+    font-size: 20px;
+    font-weight: 0;
+}
+.text-welcome .button-welcome{
+    margin-top: 5px;
+   
+}
+.button-welcome .btn-l,.button-welcome .btn-r{
+    width: 50%;
+    display: inline;
+ }
+ .button-welcome .btn-l{
+padding-left: 10px;
+padding-right: 10px;
+}
+.button-welcome .btn-r{
+    padding-left: 10px;
+    padding-right: 10px;
+}  
+
+.button-welcome .btn-l .left,.button-welcome .btn-r .right{
+    min-width: 170px;
+  height: 50px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.button-welcome .btn-l .left,.button-welcome .btn-r .right span{
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+/* template-mid */
+.template-mid{
+    position: relative;
+    min-height: 200px;
+    width: 300px;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.template-mid .screen-body {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.template-mid .lower-body{
+    position: absolute;
+    width: 130%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 100%;
+}
+.template-mid .template-mid-img{
+    width: 100%;
+    padding: 10px;
+}
