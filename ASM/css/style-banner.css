@@ -1,9 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 .banner {
     margin-left: 0px;
     margin-right: 0px;
@@ -17,7 +11,7 @@
 .welcome {
     background-color: #1b1e30;
     width: 100%;
-    height: 650px;
+    height: 100vh;
     position: relative;
 }
 
@@ -27,53 +21,62 @@
 .logo {
     background-color: #3b4259;
     position: absolute;
-    height: 35px;
-    min-width: 140px;
+    height: 5%;
+    width: 11%;
     left: 50%;
-    top: 25px;
+    top: 5%;
     transform: translateX(-50%);
     text-align: center;
+    box-shadow: 1px 2px 6px 0px #0000001f;
 }
 
 img.logo-text {
-    margin-top: 5px;
+    width: 90%;
+    height: 68%;
+    margin-top: 3%;
+    margin-bottom: 10px;
 }
 
 
 /* text welcome */
 
 .text-welcome {
+    font-size: 0;
     position: absolute;
     color: white;
     left: 50%;
-    width: 100%;
-    top: 60px;
+    width: 50%;
+    top: 10%;
     transform: translateX(-50%);
-    line-height: 45px;
     text-align: center;
 }
 
 .text-welcome h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 42px;
     letter-spacing: 1px;
     font-weight: 800;
+    box-shadow: 1px 2px 6px 0px #0000001f;
 }
 
 .text-welcome i {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: #d0d6e4;
+    font-weight: 100;
+    box-shadow: 1px 2px 6px 0px #0000001f;
 }
 
 .text-welcome .button-welcome {
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .button-welcome .btn-l,
 .button-welcome .btn-r {
     width: 50%;
     display: inline;
+    box-shadow: 1px 2px 6px 0px #0000001f;
 }
 
 .button-welcome .btn-l {
@@ -86,19 +89,29 @@ img.logo-text {
     padding-right: 5px;
 }
 
-.button-welcome .btn-l .left,
-.button-welcome .btn-r .right {
+.button-welcome .left,
+.button-welcome .right {
     min-width: 170px;
     height: 50px;
     background: none;
-    border: 1px solid white;
+    border: 1px solid #4e546e;
     border-radius: 30px;
 }
 
-.button-welcome .btn-l .left,
-.button-welcome .btn-r .right span {
-    color: white;
+.button-welcome .right {
+    background: white;
+}
+
+.button-welcome .right span {
+    color: black;
     font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.button-welcome .left span {
+    font-weight: 800;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
@@ -108,9 +121,9 @@ img.logo-text {
 
 .template-mid {
     position: relative;
-    min-height: 200px;
-    width: 420px;
-    top: 230px;
+    height: auto;
+    width: 32%;
+    top: 36%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -119,6 +132,7 @@ img.logo-text {
     position: absolute;
     width: 100%;
     left: 50%;
+    top: 1px;
     transform: translateX(-50%);
 }
 
@@ -140,10 +154,10 @@ img.logo-text {
 
 .img-601 {
     position: absolute;
-    width: 250px;
-    height: 150px;
-    left: 100px;
-    bottom: 80px;
+    width: 20%;
+    height: 25%;
+    left: 5%;
+    bottom: 11%;
     overflow: hidden;
     box-shadow: 2px 2px 10px 0px #0000014a;
 }
@@ -153,10 +167,10 @@ img.logo-text {
 }
 
 .img-603 {
-    width: 220px;
-    height: 130px;
-    left: 200px;
-    top: 170px;
+    width: 17%;
+    height: 20%;
+    left: 14%;
+    top: 26%;
     position: absolute;
     overflow: hidden;
     z-index: 1;
@@ -169,10 +183,10 @@ img.logo-text {
 
 .img-604 {
     position: absolute;
-    width: 190px;
-    height: 105px;
-    left: 40px;
-    bottom: 296px;
+    width: 14%;
+    height: 16%;
+    left: 2%;
+    bottom: 45%;
     overflow: hidden;
     box-shadow: 2px 2px 10px 0px #0000014a;
 }
@@ -186,10 +200,10 @@ img.logo-text {
 
 .img-602 {
     position: absolute;
-    width: 220px;
-    height: 130px;
-    bottom: 110px;
-    right: 150px;
+    width: 17%;
+    height: 19%;
+    bottom: 17%;
+    right: 10%;
     overflow: hidden;
     box-shadow: 2px 2px 10px 0px #0000014a;
 }
@@ -200,10 +214,10 @@ img.logo-text {
 
 .img-605 {
     position: absolute;
-    width: 200px;
-    height: 120px;
-    right: 210px;
-    top: 238px;
+    width: 14%;
+    height: 16%;
+    right: 17%;
+    top: 38%;
     overflow: hidden;
     z-index: 1;
     box-shadow: 2px 2px 10px 0px #0000014a;
@@ -214,10 +228,10 @@ img.logo-text {
 }
 
 .img-606 {
-    width: 220px;
-    height: 130px;
-    right: 20px;
-    top: 170px;
+    width: 17%;
+    height: 20%;
+    right: 2%;
+    top: 26%;
     position: absolute;
     overflow: hidden;
     box-shadow: 2px 2px 10px 0px #0000014a;
@@ -228,10 +242,10 @@ img.logo-text {
 }
 
 .Coming-soon {
-    width: 110px;
-    height: 110px;
-    right: 0px;
-    top: 360px;
+    width: 7%;
+    height: 15%;
+    right: 0%;
+    top: 55%;
     position: absolute;
     overflow: hidden;
     box-shadow: 2px 2px 10px 0px #0000014a;
@@ -240,7 +254,8 @@ img.logo-text {
 .Coming-soon img {
     width: 177%;
     position: absolute;
-    right: -42px;
+    right: -40%;
+    top: 5%;
 }
 
 .create-demos {
@@ -261,7 +276,6 @@ img.logo-text {
 .big-text .text-background {
     font-size: 80px;
     letter-spacing: 15px;
-    font-family: fantasy;
     color: #f1f1f3;
 }
 
@@ -271,19 +285,19 @@ img.logo-text {
     left: 50%;
     transform: translateY(-20%) translateX(-50%);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 2px;
     color: #272931;
 }
 
 .big-text .title {
-    width: 550px;
+    width: 50%;
     position: absolute;
-    top: 110%;
+    top: 100%;
     left: 50%;
     transform: translateY(-20%) translateX(-50%);
-    font-size: 12px;
-    font-family: emoji;
+    font-size: 14px;
     color: #7c7d86;
 }
 
@@ -300,6 +314,7 @@ img.logo-text {
     margin-right: 20px;
     height: 100%;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav-bar li a {
@@ -311,4 +326,12 @@ img.logo-text {
 
 li:hover a {
     text-decoration-line: underline;
+}
+
+.line {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    width: 3%;
+    transform: translateX(0);
 }
