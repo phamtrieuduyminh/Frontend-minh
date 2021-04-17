@@ -71,6 +71,7 @@
     font-weight: bold;
     font-size: 16px;
     font-family: system-ui;
+    color: 212838;
 }
 
 .block-tittle p {
@@ -87,7 +88,7 @@
     background-color: #141724;
     width: 100%;
     position: relative;
-    min-height: 420px;
+    min-height: 460px;
 }
 
 .banner-hello .img-hello {
@@ -134,6 +135,126 @@
 
 .dot {
     position: absolute;
+    right: 24%;
+    bottom: 10%;
 }
 
-.hello-line {}
+.block-text {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    box-shadow: -2px 3px 9px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 100px;
+}
+
+.icon i {
+    position: absolute;
+    font-size: 50px;
+    color: #d2d3d4;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.block-text h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #434447;
+}
+
+.base {
+    margin-top: 80px;
+    width: 100%;
+    min-height: 650px;
+    position: relative;
+    background-color: #141724;
+}
+
+.base-text {
+    font-size: 0;
+    position: absolute;
+    color: white;
+    left: 50%;
+    margin-top: 25px;
+    width: 50%;
+    top: 55%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.base-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    box-shadow: 1px 2px 6px 0px #0000001f;
+}
+
+.base-text p {
+    font-size: 16px;
+    font-family: system-ui;
+    color: #d0d6e4;
+    font-weight: 100;
+    box-shadow: 1px 2px 6px 0px #0000001f;
+}
+
+.btn {
+    width: 25%;
+    margin-right: auto;
+    height: 45px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.btn button {
+    color: #141724;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 2px 6px 0px #0000001f;
+    border: 1px solid #4e546e;
+    border-radius: 30px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.base .mid {
+    position: absolute;
+    left: 50%;
+    top: -14%;
+    transform: translateX(-50%);
+}
+
+.base>[class*="img-"] {
+    background-color: #fe8a92;
+}
+
+.base .img-1 {
+    width: 23%;
+    height: 30%;
+    top: -8%;
+    left: 3%;
+    position: absolute;
+}
+
+.base .img-2 {
+    width: 17%;
+    height: 22%;
+    top: 35%;
+    position: absolute;
+}
+
+.base .img-3 {
+    width: 17%;
+    height: 22%;
+    top: -6%;
+    right: 7%;
+    position: absolute;
+}
