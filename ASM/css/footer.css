@@ -1,0 +1,29 @@
+.img-hello2 {
+    position: absolute;
+    width: 45%;
+    top: -10%;
+}
+
+.hello-tittle2 {
+    margin-left: 15px;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    padding-top: 50px;
+    line-height: 40px;
+    top: 15%;
+    color: #ffffffe3;
+}
+
+.hello-tittle2 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    width: 75%;
+}
+
+.hello-tittle2 p {
+    font-style: italic;
+    padding-left: 7px;
+}

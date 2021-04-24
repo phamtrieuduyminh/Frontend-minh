@@ -1,8 +1,0 @@
-heigth 100vh để full màn hình cho headder
-font-size để xóa khoảng cách khi tạo card
-vetical aline - set theo phía trên
-
-
-
-.m-row > [class = "m-col-"]
-> bắt buộc nằm sát nhau

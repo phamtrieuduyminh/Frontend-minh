@@ -1,0 +1,22 @@
+.img-sp {
+    width: 100%;
+    height: 190px;
+    box-shadow: 3px 5px 16px #00000038;
+    overflow: hidden;
+}
+
+.img-sp img {
+    width: 100%;
+}
+
+.text-sp {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text-sp p {
+    font-weight: bold;
+    font-size: 11px;
+}

@@ -1,0 +1,47 @@
+.icon-block-item {
+    height: 190px;
+    width: 100%;
+    font-size: 0px;
+}
+
+.block-img {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    width: 35%;
+    box-shadow: 3px 4px 10px #00000038;
+    position: relative;
+}
+
+.block-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.block-tittle {
+    padding-left: 17px;
+    padding-top: 17px;
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    background-color: #fbfbfb;
+    vertical-align: top;
+}
+
+.block-tittle h4 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: system-ui;
+    color: 212838;
+}
+
+.block-tittle p {
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    width: 70%;
+    color: #7c7d86;
+    line-height: 17px;
+}
