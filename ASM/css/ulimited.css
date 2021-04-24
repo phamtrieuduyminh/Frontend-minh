@@ -23,5 +23,7 @@
 
 .ulimited-box p {
     font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: #313235;
 }
