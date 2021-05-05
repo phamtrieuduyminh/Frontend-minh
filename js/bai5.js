@@ -11,7 +11,7 @@ app.controller("myctrl5", function($scope) {
         }
 
         $scope.choso = function() {
-            var nn = Math.round(Math.random() * 100);
+            var nn = Math.round(Math.random() * 40);
             $scope.soCuoi = nn;
 
 
