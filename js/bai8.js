@@ -14,15 +14,16 @@ app.controller("myctrl8", function($scope) {
         }
         $scope.choso = function() {
 
-            var newNumber = [];
+            var newNumber = [0];
 
             for (var i = 0; i < 15; i++) {
                 newNumber = Math.round(Math.random() * 10000);
                 soNN.push(newNumber);
+
             }
-
-
             $scope.so = soNN;
+
+
         }
 
     }
