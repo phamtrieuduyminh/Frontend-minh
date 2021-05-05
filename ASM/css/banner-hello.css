@@ -3,7 +3,7 @@
     background-color: #141724;
     width: 100%;
     position: relative;
-    height: 460px;
+    min-height: 460px;
 }
 
 .banner-hello .img-hello {
@@ -11,6 +11,10 @@
     top: -25%;
     left: 43%;
     z-index: 1;
+}
+
+.img-hello img {
+    width: 100%;
 }
 
 .img-full {

@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Javascript basic</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body ng-app="myapp">
+
+
+    <div class="container">
+
+        <!-- bai 1 -->
+        <div class="card" ng-controller="myctrl">
+            <div class="card-header bg-primary">
+                Bài 1 : Tính Tổng
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số cuối cùng</label>
+                        <input type="text" ng-model="soCuoi" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="Tong==0">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="Tong" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- bai 2 -->
+        <div class="card" ng-controller="myctrl2">
+            <div class="card-header bg-primary">
+                Bài 2 : Tính Tổng Bình Phương
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số cuối cùng</label>
+                        <input type="text" ng-model="soCuoi" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="Tong==0">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng bình phương từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="Tong" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- bai 3 -->
+        <div class="card" ng-controller="myctrl3">
+            <div class="card-header bg-primary">
+                Bài 3
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số cuối cùng</label>
+                        <input type="text" ng-model="soCuoi" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="Tong==0">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng bình phương từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="Tong" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- bai 4 -->
+        <div class="card" ng-controller="myctrl4">
+            <div class="card-header bg-primary">
+                Bài 4
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số cuối cùng</label>
+                        <input type="text" ng-model="soCuoi" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="Tong==0">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng bình phương từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="Tong" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- bai 5 -->
+        <div class="card" ng-controller="myctrl5">
+            <div class="card-header bg-primary">
+                Bài 5 : Giai Thừa
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số cuối cùng</label>
+                        <input type="text" ng-model="soCuoi" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="Tong==0">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng bình phương từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="Tong" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- bai 6 -->
+        <div class="card" ng-controller="myctrl6">
+            <div class="card-header bg-primary">
+                Bài 6 : Số Nguyên Tố
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số cuối cùng</label>
+                        <input type="text" ng-model="soCuoi" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="Tong==0">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng bình phương từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="Tong" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- bai 7 -->
+        <div class="card" ng-controller="myctrl7">
+            <div class="card-header bg-primary">
+                Bài 7 : Số lớn nhất
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nhập số a</label>
+                        <input type="text" ng-model="soA" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="soA==null">Bạn chưa nhập số</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nhập số b</label>
+                        <input type="text" ng-model="soB" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="soB==null">Bạn chưa nhập số</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nhập số c</label>
+                        <input type="text" ng-model="soC" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        <span class="badge badge-danger font-intalic" ng-if="soC==null">Bạn chưa nhập số</span>
+                    </div>
+
+                    <hr>
+                    <div class="form-group">
+                        <label for="">Tổng bình phương từ 0 đến số cuối cùng là</label>
+                        <input type="text" ng-model="ketQua" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính toán</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- bai 8 -->
+        <div class="card" ng-controller="myctrl8">
+            <div class="card-header bg-primary">
+                Bài 8 :Số lớn nhất trong mảng
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">15 số ngẫu nhiên</label>
+                        <input type="text" ng-model="so" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Số lớn nhất trong mảng</label>
+                        <input type="text" ng-model="soLonNhat" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Số lớn nhất trong mảng</label>
+                        <input type="text" ng-model="soBeNhat" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                    </div>
+
+
+
+
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tính số lớn nhất trong mảng</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- bai 9 -->
+        <div class="card" ng-controller="myctrl9">
+            <div class="card-header bg-primary">
+                Bài 9 :Số lớn nhất trong mảng ( chưa hoàn thành)
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">15 số ngẫu nhiên</label>
+                        <input type="text" ng-model="so" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Số lớn nhất trong mảng</label>
+                        <input type="text" ng-model="soLonNhat" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Số lớn nhất trong mảng</label>
+                        <input type="text" ng-model="soBeNhat" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                    </div>
+
+
+
+
+
+
+
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <div class="form-group text-xl-center">
+
+                    <button class="btn btn-success" ng-click="choso()" type="button">Cho số ngẫu nhiên</button>
+                    <button class="btn btn-info" ng-click="tinhtoan()" type="button">Tìm vị trí xuất hiện 
+                        cuối cùng một phần tử có giá trị âm trong mảng </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+</body>
+<script src="bai1.js">
+</script>
+<script src="bai2.js">
+</script>
+<script src="bai3.js">
+</script>
+<script src="bai4.js">
+</script>
+<script src="bai5.js">
+</script>
+<script src="bai6.js">
+</script>
+<script src="bai7.js">
+</script>
+<script src="bai8.js">
+</script>
+<script src="bai9.js">
+</script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</html>

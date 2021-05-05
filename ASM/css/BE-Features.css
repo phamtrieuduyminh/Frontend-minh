@@ -1,0 +1,47 @@
+.BE-Features {
+    position: relative;
+    width: 65%;
+    margin-top: 75px;
+}
+
+.BE-tittle {
+    padding-bottom: 30px;
+}
+
+.tittle {
+    font-family: 'Montserrat', sans-serif;
+    color: #313235;
+    font-weight: 500;
+}
+
+.BE-Features .text {
+    margin-top: 20px;
+}
+
+.BE-tittle .line {
+    width: 70px;
+    height: 2px;
+    background-color: #333;
+    left: 14px;
+    top: 55px;
+    position: absolute;
+}
+
+.text p {
+    margin-bottom: 45px;
+    width: 75%;
+}
+
+.BE-Features-img {
+    width: 600px;
+    position: absolute;
+    right: 1%;
+}
+
+.BE-Features-img img {
+    width: 100%;
+}
+
+.BE-Features-btn {
+    margin-top: 30px;
+}

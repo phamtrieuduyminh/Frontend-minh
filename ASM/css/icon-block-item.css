@@ -1,14 +1,14 @@
 .icon-block-item {
-    height: 190px;
+    height: 170px;
     width: 100%;
     font-size: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .block-img {
     display: inline-block;
-    width: 30%;
-    height: 100%;
     width: 35%;
+    height: 100%;
     box-shadow: 3px 4px 10px #00000038;
     position: relative;
 }
@@ -32,16 +32,16 @@
 
 .block-tittle h4 {
     font-weight: bold;
-    font-size: 16px;
-    font-family: system-ui;
-    color: 212838;
+    font-size: 20px;
+    color: #212838;
 }
 
 .block-tittle p {
     margin-top: 12px;
     font-weight: 100;
-    font-size: 11px;
+    font-size: 15px;
     width: 70%;
+    font-family: 'PT Serif', serif;
     color: #7c7d86;
     line-height: 17px;
 }
