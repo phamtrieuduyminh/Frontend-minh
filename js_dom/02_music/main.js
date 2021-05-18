@@ -57,8 +57,8 @@ function checkKey(key) {
     } else if (key.keyCode == "54") {
         document.getElementById("f").load();
         document.getElementById("f").play();
+    } else if (key.keyCode == "55") {
+        document.getElementById("g").load();
+        document.getElementById("g").play();
     }
-    document.getElementById("g").load();
-    document.getElementById("g").play();
-
 }
