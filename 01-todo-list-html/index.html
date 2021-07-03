@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- TITLE : START -->
+        <div class="page-header">
+            <h1>Project 01 - ToDo List <small>Js DOM</small></h1>
+            <hr class="my-4">
+        </div>
+        <!-- TITLE : END -->
+
+
+        <div class="row">
+            <!-- CONTROL (SEARCH + SORT + ADD) : START -->
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <!-- SORT : START -->
+                    <div class="col-12">
+                        <div class="form-group">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Sort by
+								</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#" onclick="Name_ASC()">Name ASC</a>
+                                    <a class="dropdown-item" href="#" onclick="Name_DESC()">Name DESC</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" onclick="Level_ASC()">Level ASC</a>
+                                    <a class="dropdown-item" href="#" onclick="Level_DESC()">Level DESC</a>
+                                </div>
+                                <span class="badge badge-success badge-medium" id="Sort">NAME - ASC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SORT : END -->
+
+                    <!-- SEARCH : START -->
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="search" placeholder="Search for..." />
+                            <span class="input-group-append">
+								<button class="btn btn-info" type="button" onclick="search()">Clear!</button>
+							</span>
+                        </div>
+                    </div>
+                    <!-- SEARCH : END -->
+                </div>
+            </div>
+            <!-- CONTROL (SEARCH + SORT + ADD) : END -->
+
+            <!-- FORM : START -->
+            <div class="col-12 col-lg-6">
+                <!-- ADD : START -->
+                <div class="form-group add-task">
+                    <button type="button" class="btn btn-info btn-block">Add Task</button>
+                </div>
+                <!-- ADD : END -->
+
+                <form action="" method="POST" class="form-inline justify-content-between">
+                    <div class="form-group">
+                        <label class="sr-only" for="">label</label>
+                        <input type="text" class="form-control" placeholder="Task Name" id="taskName" />
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="">label</label>
+                        <select name="ds" class="form-control" id="level" required="required">
+							<option value="0">Small</option>
+							<option value="1">Medium</option>
+							<option value="2">High</option>
+						</select>
+                    </div>
+
+                    <button type="button" class="btn btn-primary" onclick="get()">Submit</button>
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                </form>
+            </div>
+            <!-- FORM : END -->
+        </div>
+
+        <!-- LIST : START -->
+
+        <div class="panel panel-success">
+            <div class="panel-heading">List Task</div>
+            <table class="table table-hover ">
+                <thead>
+                    <tr>
+                        <th style="width: 10%" class="text-center">#</th>
+                        <th>Task</th>
+                        <th style="width: 20%" class="text-center">Level</th>
+                        <th style="width: 160px">Action</th>
+                    </tr>
+                </thead>
+                <!-- <td>
+                            <button type="button" class="btn btn-warning">Edit</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td> -->
+                <tbody id="show">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+    <!--
+		This HTML file is a template.
+		If you open it directly in the browser, you will see an empty page.
+
+		You can add webfonts, meta tags, or analytics to this file.
+		The build step will place the bundled scripts into the <body> tag.
+
+		To begin the development, run `npm start` or `yarn start`.
+		To create a production bundle, use `npm run build` or `yarn build`.
+	-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+
+</html>
